@@ -57,10 +57,10 @@
   position: relative;
 }
 
-.btn-drop{
-  position:absolute;
+.btn-drop {
+  position: absolute;
   margin-top: 15px;
-  margin-right:30px;
+  margin-right: 30px;
   /* margin-top: 50px; */
 }
 
@@ -73,8 +73,8 @@
 
 .profile-pic {
   align-self: center;
-  height: 300px;
-  width: 300px;
+  height: 300px !important;
+  width: 300px !important;
   /* padding: 30px 0 30px 0; */
 }
 
