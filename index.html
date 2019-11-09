@@ -12,17 +12,16 @@
     />
   </head>
   <body>
-    <header class="container-fluid">
+    <header class="container-fluid bg-img">
       <!-- TODO: Add nav bar -->
       <div class="row">
         <div class="col">
           <h1>This is totally a nav bar</h1>
         </div>
       </div>
-    </header>
-    <main class="container-fluid">
-      <div id="primary-content" class="row bg-img">
+      <div id="primary-content" class="row pl-15">
         <div class="col-12 col-md-6 order-md-2" id="primary-video">
+          <!-- made col-md-6 into col-md-->
           <div class="videoWrapper">
             <iframe
               width="560"
@@ -34,7 +33,9 @@
             ></iframe>
           </div>
         </div>
+        <!-- <div class="col-md-1" id="spacer-col"></div> -->
         <div class="col-12 col-md-6 order-md-1" id="primary-text">
+          <!--could add offset-1-->
           <h1>Rocket League Resources</h1>
           <p>
             Rocket League is a game in which you drive and fly your way to
@@ -42,25 +43,36 @@
             fantastic time.
           </p>
           <!-- TODO add real button -->
-          <h2>placeholder button</h2>
+          <a
+            href="https://www.rocketleague.com/game-info/buy/"
+            class="btn btn-primary btn-lg active"
+            role="button"
+            aria-pressed="true"
+            >Primary link</a
+          >
         </div>
       </div>
+    </header>
+    <main class="container-fluid">
       <div class="row">
-        <div class="col-12 col-md-4"></div>
-        <div class="col-12 col-md-4"></div>
-        <div class="col-12 col-md-4"></div>
+        <div class="col-12 col-md-4"><p>this is totally a card</p></div>
+        <div class="col-12 col-md-4"><p>this is totally a card</p></div>
+        <div class="col-12 col-md-4"><p>this is totally a card</p></div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6"></div>
-        <div class="col-12 col-md-6"></div>
+        <div class="col-12 col-md-6"><p>Secondary image</p></div>
+        <div class="col-12 col-md-6">Secondary Text</div>
       </div>
     </main>
     <footer class="container-fluid">
       <div class="row">
-        <div class="col"></div>
+        <div class="col"><p>this is totally a logo</p></div>
         <!--TODO make center-->
       </div>
-      <div class="row"></div>
+      <div class="row">
+        <div class="col"><p>text</p></div>
+        <div class="col"><p>text</p></div>
+      </div>
     </footer>
   </body>
 </html>
