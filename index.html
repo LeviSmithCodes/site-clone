@@ -13,10 +13,63 @@
   </head>
   <body>
     <header class="container-fluid bg-img">
-      <!-- TODO: Add nav bar -->
       <div class="row">
         <div class="col">
-          <h1>This is totally a nav bar</h1>
+          <nav id="nav-bar" class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
       <div id="primary-content" class="row pl-15">
@@ -42,13 +95,12 @@
             scoring goals, keeping your opponents salty, and genrally having a
             fantastic time.
           </p>
-          <!-- TODO add real button -->
           <a
             href="https://www.rocketleague.com/game-info/buy/"
-            class="btn btn-primary btn-lg active"
+            class="btn btn-secondary btn-lg active"
             role="button"
             aria-pressed="true"
-            >Primary link</a
+            >Purchase Game</a
           >
         </div>
       </div>
@@ -60,13 +112,17 @@
         <div class="col-12 col-md-4"><p>this is totally a card</p></div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6"><p>Secondary image</p></div>
+        <div class="col-12 col-md-6">
+          <img src="https://picsum.photos/400/250" alt="Your .jpg a-la carte" />
+        </div>
         <div class="col-12 col-md-6">Secondary Text</div>
       </div>
     </main>
     <footer class="container-fluid">
       <div class="row">
-        <div class="col"><p>this is totally a logo</p></div>
+        <div class="col">
+          <img src="https://picsum.photos/60/60" alt="Your .jpg a-la carte" />
+        </div>
         <!--TODO make center-->
       </div>
       <div class="row">
