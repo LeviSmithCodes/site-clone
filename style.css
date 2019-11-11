@@ -15,6 +15,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  padding-right: 30px;
 }
 
 .bg-img {
@@ -69,6 +70,7 @@
   display: flex;
   flex-direction: column;
   padding: 60px 0 0 0;
+  /* min-height: 100vh !important; */
 }
 
 .profile-pic {
@@ -91,4 +93,26 @@ card-text-drop {
 .nav-link {
   font-weight: bold;
   text-shadow: grey 1px 1px 1px;
+}
+
+.footer-img-col {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-text {
+  font-size: 0.5em;
+}
+.bottom-text-right {
+  text-align: right;
+}
+
+@media (max-width: 1200px) {
+  footer .bottom-text {
+    text-align: center !important;
+  }
+}
+
+.secondary {
+  padding: 15px 0;
 }
