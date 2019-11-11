@@ -7,7 +7,7 @@
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 .videoWrapper iframe {
   position: absolute;
@@ -53,7 +53,9 @@
 /* #spacer-col {
   width: 0px;
 } */
-.card {
+
+.card-secondary {
+  /* position: absolute; */
   margin: 30px 30px 60px 30px;
 }
 
@@ -115,9 +117,9 @@ card-text-drop {
   text-align: right;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
   footer .bottom-text {
-    text-align: center !important;
+    text-align: center;
   }
 }
 
@@ -144,4 +146,13 @@ card-text-drop {
   height: 99px;
   width: 280px;
   margin-top: 35px;
+}
+
+.spacer-row {
+  height: 40vh;
+}
+.card-row {
+  /* position: relative; */
+  /* bottom: -10em; */
+  /* margin: auto; */
 }
