@@ -18,8 +18,12 @@
   padding-right: 30px;
 }
 
-.bg-img {
+/* .bg-img {
   background-image: url(https://www.wikihow.com/images/thumb/2/29/RLArialGetBoost.jpg/900px-RLArialGetBoost.jpg);
+} */
+
+.bg-img {
+  background-image: url(https://rocketleague.media.zestyio.com/rl_screen_blog_1.309bf22bd29c2e411e9dd8eb07575bb1.jpg);
 }
 
 .bg-color {
